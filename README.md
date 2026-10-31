@@ -1,6 +1,6 @@
 # Trip planner starter kit
 
-Plan a family trip with Claude Code, then turn the plan into a private offline app (a PWA) and custom podcast episodes for the drives. This kit accompanies the Geocodio blog post [Claude Was Our Travel Agent](https://www.geocod.io/code-and-coordinates/2026-11-02-claude-was-our-travel-agent/). It ships an example plan: a made-up family on five days in New Zealand's North Island.
+Plan a family trip with Claude Code, then turn the plan into a private offline app (a PWA) and custom podcast episodes for the drives. This kit accompanies the Geocodio blog post [We Built Our Own Travel App, and It Came with a Podcast](https://www.geocod.io/code-and-coordinates/2026-11-02-we-built-our-own-travel-app-and-it-came-with-a-podcast/). It ships an example plan: a made-up family on five days in New Zealand's North Island.
 
 <p align="center">
   <img src="docs/screenshot-today.png" width="260" alt="Today page of the example trip: the day switcher and each plan item with a plain description of what it actually is">
