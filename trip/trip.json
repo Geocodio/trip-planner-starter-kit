@@ -1,0 +1,448 @@
+{
+  "title": "Rivera family: North Island loop",
+  "timezone": "Pacific/Auckland",
+  "places": {
+    "airport": {
+      "name": "Auckland Airport",
+      "address": "2 Ascot Road, Auckland Airport, Auckland 2022, New Zealand",
+      "ll": [
+        -36.971815,
+        174.784436
+      ]
+    },
+    "aucklandHotel": {
+      "name": "Hotel in central Auckland",
+      "address": "21 Viaduct Harbour Avenue, Auckland 1010, New Zealand",
+      "ll": [
+        -36.844775,
+        174.757506
+      ]
+    },
+    "skyTower": {
+      "name": "Sky Tower",
+      "address": "72 Victoria Street West, Auckland 1010, New Zealand",
+      "ll": [
+        -36.848363,
+        174.762288
+      ]
+    },
+    "hamiltonGardens": {
+      "name": "Hamilton Gardens",
+      "address": "1 Hungerford Crescent, Hamilton East, Hamilton 3216, New Zealand",
+      "ll": [
+        -37.803371,
+        175.306313
+      ]
+    },
+    "skyline": {
+      "name": "Skyline Rotorua",
+      "address": "178 Fairy Springs Road, Rotorua 3015, New Zealand",
+      "ll": [
+        -38.109825,
+        176.222771
+      ]
+    },
+    "rotoruaHotel": {
+      "name": "Hotel in central Rotorua",
+      "address": "1167 Fenton Street, Rotorua 3010, New Zealand",
+      "ll": [
+        -38.135344,
+        176.253535
+      ]
+    },
+    "waiotapu": {
+      "name": "Wai-O-Tapu Thermal Wonderland",
+      "address": "201 Waiotapu Loop Road, Waiotapu 3073, New Zealand",
+      "ll": [
+        -38.354722,
+        176.367525
+      ]
+    },
+    "tePuia": {
+      "name": "Te Puia",
+      "address": "Hemo Road, Rotorua 3010, New Zealand",
+      "ll": [
+        -38.164227,
+        176.247949
+      ]
+    },
+    "hobbiton": {
+      "name": "Hobbiton Movie Set",
+      "address": "501 Buckland Road, Hinuera, Matamata 3472, New Zealand",
+      "ll": [
+        -37.872124,
+        175.682929
+      ]
+    }
+  },
+  "days": [
+    {
+      "date": "2027-01-12",
+      "title": "Land and go slow",
+      "summary": "A light first day. Pick up the car, get to the hotel, walk by the water and sleep early.",
+      "items": [
+        {
+          "time": "14:00",
+          "title": "Land in Auckland and collect the rental car",
+          "what": "Clear passport control, fetch bags and pick up the car at the airport rental desks.",
+          "place": "airport",
+          "booking": "rental-car"
+        },
+        {
+          "time": "16:00",
+          "title": "Check in at the hotel",
+          "what": "Drop the bags, shower, and stay awake until at least 8 pm to reset your body clock.",
+          "place": "aucklandHotel",
+          "booking": "auckland-hotel"
+        },
+        {
+          "time": "17:30",
+          "title": "Harbour walk at Viaduct Harbour",
+          "what": "A flat, 20 minute stroll along the waterfront past moored yachts, with dinner at one of the restaurants on the quay.",
+          "story": "The marina was rebuilt for the America's Cup, and the superyachts parked here are often worth more than the whole street.",
+          "place": "aucklandHotel"
+        }
+      ],
+      "drive": {
+        "title": "Airport to the hotel",
+        "intro": "A short motorway drive, on the left side of the road. Take it slowly while the jet lag wears off.",
+        "stops": [
+          {
+            "place": "airport"
+          },
+          {
+            "place": "aucklandHotel",
+            "note": "Hotel parking is beneath the building."
+          }
+        ]
+      }
+    },
+    {
+      "date": "2027-01-13",
+      "title": "The scenic way to Rotorua",
+      "summary": "Two easy stops on the way south, each close to the car park.",
+      "items": [
+        {
+          "time": "09:30",
+          "title": "Leave Auckland",
+          "what": "Head south on State Highway 1 toward Hamilton.",
+          "place": "aucklandHotel"
+        },
+        {
+          "time": "11:30",
+          "title": "Hamilton Gardens",
+          "what": "A collection of themed gardens (Japanese, Italian, English and more), each one a small walled room you wander through on flat paths.",
+          "story": "Each garden recreates a different era or culture, so you can cross continents and centuries before lunch.",
+          "place": "hamiltonGardens"
+        },
+        {
+          "time": "14:30",
+          "title": "Skyline Rotorua gondola",
+          "what": "A gondola ride up Mount Ngongotaha for a view over Lake Rotorua, with an optional downhill luge ride on wheeled carts.",
+          "story": "The luge tracks are a Rotorua invention that has since been copied around the world.",
+          "place": "skyline"
+        },
+        {
+          "time": "16:00",
+          "title": "Check in at the Rotorua hotel",
+          "what": "Settle in. You may notice a faint egg smell from the geothermal steam in town.",
+          "place": "rotoruaHotel",
+          "booking": "rotorua-hotel"
+        }
+      ],
+      "drive": {
+        "title": "Auckland to Rotorua via the gardens and the gondola",
+        "intro": "About three hours of driving spread over a full day.",
+        "stops": [
+          {
+            "place": "aucklandHotel"
+          },
+          {
+            "place": "hamiltonGardens",
+            "note": "Look for the car park beside the entrance on Hungerford Crescent."
+          },
+          {
+            "place": "skyline",
+            "note": "Park in the lot at the gondola base."
+          },
+          {
+            "place": "rotoruaHotel"
+          }
+        ],
+        "episode": {
+          "file": "example",
+          "title": "The Road to Rotorua",
+          "about": "A short episode for the drive south. Start it as you leave Auckland."
+        }
+      }
+    },
+    {
+      "date": "2027-01-14",
+      "title": "Geysers and Maori culture",
+      "summary": "Wai-O-Tapu in the morning for the geyser show, Te Puia in the afternoon.",
+      "items": [
+        {
+          "time": "08:45",
+          "title": "Drive to Wai-O-Tapu",
+          "what": "A 30 minute drive south through farmland and forest.",
+          "place": "waiotapu"
+        },
+        {
+          "time": "10:15",
+          "title": "Lady Knox Geyser",
+          "what": "Rangers drop a little soap into a geyser vent, and a few minutes later a column of water shoots up to ten metres.",
+          "story": "The eruption was discovered in 1901 when prisoners washing their clothes in the hot water dropped in soap.",
+          "place": "waiotapu",
+          "booking": "waiotapu-tickets"
+        },
+        {
+          "time": "11:00",
+          "title": "Walk the thermal park",
+          "what": "A one hour boardwalk loop past steaming craters, a bright orange hot lake (the Champagne Pool) and a bright green pond.",
+          "place": "waiotapu"
+        },
+        {
+          "time": "14:30",
+          "title": "Te Puia",
+          "what": "A guided walk through a geothermal valley, a carving school and a kiwi house, with the Pohutu Geyser erupting several times a day.",
+          "story": "Pohutu means big splash. It erupts about 20 times a day, up to 30 metres high.",
+          "place": "tePuia"
+        },
+        {
+          "time": "18:30",
+          "title": "Dinner in town",
+          "what": "Eat on Eat Street (Tutanekai Street), a short walk from the hotel.",
+          "place": "rotoruaHotel"
+        }
+      ],
+      "drive": {
+        "title": "Rotorua to Wai-O-Tapu and Te Puia",
+        "intro": "Two short drives, one in each direction.",
+        "stops": [
+          {
+            "place": "rotoruaHotel"
+          },
+          {
+            "place": "waiotapu"
+          },
+          {
+            "place": "tePuia"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2027-01-15",
+      "title": "Hobbiton and back to Auckland",
+      "summary": "A guided walk through the film set in the early afternoon, then the drive back to the city.",
+      "items": [
+        {
+          "time": "10:30",
+          "title": "Check out and drive to Hobbiton",
+          "what": "About an hour on the road to Matamata. Arrive 15 minutes before the tour.",
+          "place": "hobbiton"
+        },
+        {
+          "time": "13:00",
+          "title": "Hobbiton tour",
+          "what": "A 2 hour guided walk through the hobbit holes and gardens, finishing with a drink at the Green Dragon Inn.",
+          "story": "The set was built for the films in 1998 on a working sheep farm, then rebuilt permanently for the Hobbit films.",
+          "place": "hobbiton",
+          "booking": "hobbiton-tour"
+        },
+        {
+          "time": "17:30",
+          "title": "Arrive in Auckland",
+          "what": "Check in and have a quiet dinner. Pack tonight for tomorrow's flight.",
+          "place": "aucklandHotel",
+          "booking": "auckland-hotel"
+        }
+      ],
+      "drive": {
+        "title": "Rotorua to Hobbiton and back to Auckland",
+        "intro": "Sheep farms, then the motorway. Fill the tank before returning the car.",
+        "stops": [
+          {
+            "place": "rotoruaHotel"
+          },
+          {
+            "place": "hobbiton",
+            "note": "Park at the Shire's Rest and take the shuttle bus to the set."
+          },
+          {
+            "place": "aucklandHotel"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2027-01-16",
+      "title": "One last view, then home",
+      "summary": "A relaxed morning, then the airport.",
+      "items": [
+        {
+          "time": "09:30",
+          "title": "Sky Tower",
+          "what": "An elevator ride up 220 metres to a glass-floor viewing deck with views across the whole city and both harbours.",
+          "place": "skyTower"
+        },
+        {
+          "time": "11:30",
+          "title": "Return the rental car",
+          "what": "Refuel first, then drop the car at the airport rental return and take the walkway to the terminal.",
+          "place": "airport",
+          "booking": "rental-car"
+        }
+      ],
+      "drive": {
+        "title": "Hotel to the airport",
+        "intro": "Leave extra time for the Saturday traffic on the motorway.",
+        "stops": [
+          {
+            "place": "aucklandHotel"
+          },
+          {
+            "place": "airport"
+          }
+        ]
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "id": "rental-car",
+      "title": "Rental car, 5 days",
+      "date": "2027-01-12",
+      "time": "14:30 pickup, 11:30 return on 16 Jan",
+      "place": "airport",
+      "reference": "EXAMPLE-1234",
+      "notes": "Automatic, two drivers named. Bring the driver's licence and the international driving permit."
+    },
+    {
+      "id": "auckland-hotel",
+      "title": "Auckland hotel, 12-13 Jan and 15-16 Jan",
+      "date": "2027-01-12",
+      "time": "Check-in from 15:00",
+      "place": "aucklandHotel",
+      "reference": "EXAMPLE-2201",
+      "notes": "Hold the bags on 16 Jan if the room has to be vacated early."
+    },
+    {
+      "id": "rotorua-hotel",
+      "title": "Rotorua hotel, 13-15 Jan",
+      "date": "2027-01-13",
+      "time": "Check-in from 15:00",
+      "place": "rotoruaHotel",
+      "reference": "EXAMPLE-3302",
+      "notes": "Free parking on site."
+    },
+    {
+      "id": "waiotapu-tickets",
+      "title": "Wai-O-Tapu entry, 3 tickets",
+      "date": "2027-01-14",
+      "time": "Arrive by 10:00 for the 10:15 geyser",
+      "place": "waiotapu",
+      "reference": "EXAMPLE-4403",
+      "notes": "Show the QR code from the confirmation email."
+    },
+    {
+      "id": "hobbiton-tour",
+      "title": "Hobbiton Movie Set tour, 3 tickets",
+      "date": "2027-01-15",
+      "time": "13:00 tour, check-in 12:45",
+      "place": "hobbiton",
+      "reference": "EXAMPLE-5504",
+      "notes": "Timed ticket: arrive early, the shuttle leaves on schedule."
+    }
+  ],
+  "checklist": [
+    {
+      "id": "passports",
+      "title": "Passports valid for 3 months past the trip",
+      "when": "Now",
+      "notes": "Check every traveller, including the teenager."
+    },
+    {
+      "id": "nzeta",
+      "title": "NZeTA and the tourist levy",
+      "when": "At least 72 hours before departure",
+      "notes": "Needed for every visa-waiver traveller. One application per person, paid together with the visitor levy.",
+      "url": "https://www.immigration.govt.nz/nzeta"
+    },
+    {
+      "id": "declaration",
+      "title": "NZ Traveller Declaration",
+      "when": "Within 24 hours before arriving",
+      "notes": "Submit online for the whole group. Save the confirmation.",
+      "url": "https://www.travellerdeclaration.govt.nz"
+    },
+    {
+      "id": "idp",
+      "title": "International driving permit",
+      "when": "Before leaving home",
+      "notes": "Needed when the licence is not in English. Ask the rental desk which they require; carry both licence and permit."
+    },
+    {
+      "id": "insurance",
+      "title": "Travel insurance",
+      "when": "Before paying for non-refundable bookings",
+      "notes": "Check cover for the rental car excess, medical care and the activities planned."
+    },
+    {
+      "id": "rental-times",
+      "title": "Confirm rental pickup and return times",
+      "when": "A week before",
+      "notes": "Pickup 14:30 on 12 Jan, return 11:30 on 16 Jan. Check the late-arrival rules if the flight is delayed."
+    },
+    {
+      "id": "timed-tickets",
+      "title": "Timed tickets saved offline",
+      "when": "Before 14 Jan",
+      "notes": "Wai-O-Tapu (10:15 geyser) and Hobbiton (13:00 tour). Screenshot the QR codes."
+    },
+    {
+      "id": "roaming",
+      "title": "Phone data sorted",
+      "when": "Before leaving home",
+      "notes": "eSIM or roaming plan. This app works offline once it has loaded once."
+    }
+  ],
+  "driveTimes": {
+    "airport>aucklandHotel": {
+      "minutes": 23,
+      "km": 17.9
+    },
+    "aucklandHotel>hamiltonGardens": {
+      "minutes": 100,
+      "km": 128.2
+    },
+    "hamiltonGardens>skyline": {
+      "minutes": 77,
+      "km": 98.2
+    },
+    "waiotapu>tePuia": {
+      "minutes": 23,
+      "km": 27.5
+    },
+    "hobbiton>aucklandHotel": {
+      "minutes": 142,
+      "km": 179.8
+    },
+    "aucklandHotel>airport": {
+      "minutes": 23,
+      "km": 17.9
+    },
+    "skyline>rotoruaHotel": {
+      "minutes": 8,
+      "km": 5
+    },
+    "rotoruaHotel>waiotapu": {
+      "minutes": 28,
+      "km": 31.1
+    },
+    "rotoruaHotel>hobbiton": {
+      "minutes": 70,
+      "km": 74.3
+    }
+  }
+}
