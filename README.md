@@ -2,6 +2,14 @@
 
 Plan a family trip with Claude Code, then turn the plan into a private offline app (a PWA) and custom podcast episodes for the drives. This kit accompanies the Geocodio blog post [Claude Was Our Travel Agent](https://www.geocod.io/code-and-coordinates/2026-11-02-claude-was-our-travel-agent/). It ships an example plan: a made-up family on five days in New Zealand's North Island.
 
+<p align="center">
+  <img src="docs/screenshot-today.png" width="260" alt="Today page of the example trip: the day switcher and each plan item with a plain description of what it actually is">
+  <img src="docs/screenshot-bookings.png" width="260" alt="Bookings page: each booking with its time, place and reference">
+  <img src="docs/screenshot-checklist.png" width="260" alt="Book-and-check list: entry forms, permits and insurance, with checkboxes that stay checked">
+</p>
+
+<p align="center"><em>The app the kit builds from the example trip: Today, Bookings, and the book-and-check list. It works offline once opened.</em></p>
+
 ## Quick start
 
 1. Clone this repo and open the folder in [Claude Code](https://claude.com/claude-code).
